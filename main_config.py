@@ -1,5 +1,5 @@
 import os
-from local_config import LocalConfig
+# from local_config import LocalConfig
 
 class BotConfig:
     base_file_url = os.environ.get('BASE_FILE_URL', "https://tapi.bale.ai/file/")
