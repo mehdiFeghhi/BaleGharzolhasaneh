@@ -12,4 +12,4 @@ class BotConfig:
     web_hook_domain = os.getenv('WEB_HOOK_DOMAIN', "https://testwebhook.bale.ai")
     web_hook_path = os.getenv('WEB_HOOK_PATH', "/get-upd")
     web_hook_url = "{}{}".format(web_hook_domain, web_hook_path)
-    client_token = os.environ.get('CLIENT_TOKEN', "2080422518:Tw593eWePiflPUJcHYslvjAG4conuCfk9hIsVMig")
+    client_token = os.environ.get('CLIENT_TOKEN', "")
