@@ -10,8 +10,8 @@ class User(Base):
     fullname = Column(String)
     phone = Column(String)
     pay_each_time = Column(Integer)
-    date_each_time = relationship("Date")
-    receipts = relationship("Receipt")
+    # date_each_time = relationship("Date")
+    # receipts = relationship("Receipt")
 
     def __init__(self, chat_id, fullname, phone, pay_each_time):
         self.chat_id = chat_id
